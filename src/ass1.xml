@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metrics scope="SoftwareEffortEstimation" type="Project" date="2019-03-17" xmlns="http://metrics.sourceforge.net/2003/Metrics-First-Flat">
+   <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1.857" stddev = "2.1" max = "7">
+         <Value name="cal" source ="EffortEstimation.java" package ="(default package)" value ="7"/>
+         <Value name="calcEF" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="calcTotalAc" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="calcTotalTCF" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="calcTotalUC" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="calcWReport" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="main" source ="EffortEstimation.java" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
+      <Values per = "method" avg = "1.571" stddev = "1.05" max = "3">
+         <Value name="calcTotalAc" source ="Calculation.java" package ="(default package)" value ="3"/>
+         <Value name="calcTotalUC" source ="Calculation.java" package ="(default package)" value ="3"/>
+         <Value name="calcWReport" source ="Calculation.java" package ="(default package)" value ="2"/>
+         <Value name="calcEF" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="calcTotalTCF" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="main" source ="EffortEstimation.java" package ="(default package)" value ="1"/>
+         <Value name="cal" source ="EffortEstimation.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1.286" stddev = "0.7" max = "3">
+         <Value name="cal" source ="EffortEstimation.java" package ="(default package)" value ="3"/>
+         <Value name="calcEF" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="calcTotalAc" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="calcTotalTCF" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="calcTotalUC" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="calcWReport" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="main" source ="EffortEstimation.java" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "CA" description ="Afferent Coupling">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CE" description ="Efferent Coupling">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMI" description ="Instability">
+      <Values per = "packageFragment" avg = "1" stddev = "0" max = "1">
+         <Value name="(default package)" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMA" description ="Abstractness">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMD" description ="Normalized Distance">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DIT" description ="Depth of Inheritance Tree">
+      <Values per = "type" avg = "1.5" stddev = "0.5" max = "2">
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="(default package)" value ="2"/>
+         <Value name="Calculation" source ="Calculation.java" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "WMC" description ="Weighted methods per Class">
+      <Values per = "type" total = "13" avg = "6.5" stddev = "1.5" max = "8">
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="(default package)" value ="8"/>
+         <Value name="Calculation" source ="Calculation.java" package ="(default package)" value ="5"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSC" description ="Number of Children">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="Calculation" source ="Calculation.java" package ="(default package)" value ="0"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NORM" description ="Number of Overridden Methods">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="Calculation" source ="Calculation.java" package ="(default package)" value ="0"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
+      <Values per = "type" avg = "0" stddev = "0" max = "0">
+         <Value name="Calculation" source ="Calculation.java" package ="(default package)" value ="0"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOF" description ="Number of Attributes">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="Calculation" source ="Calculation.java" package ="(default package)" value ="0"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSF" description ="Number of Static Attributes">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="Calculation" source ="Calculation.java" package ="(default package)" value ="0"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOM" description ="Number of Methods">
+      <Values per = "type" total = "1" avg = "0.5" stddev = "0.5" max = "1">
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="(default package)" value ="1"/>
+         <Value name="Calculation" source ="Calculation.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSM" description ="Number of Static Methods">
+      <Values per = "type" total = "6" avg = "3" stddev = "2" max = "5">
+         <Value name="Calculation" source ="Calculation.java" package ="(default package)" value ="5"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX" description ="Specialization Index">
+      <Values per = "type" avg = "0" stddev = "0" max = "0">
+         <Value name="Calculation" source ="Calculation.java" package ="(default package)" value ="0"/>
+         <Value name="EffortEstimation" source ="EffortEstimation.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOC" description ="Number of Classes">
+      <Values per = "packageFragment" total = "2" avg = "2" stddev = "0" max = "2">
+         <Value name="(default package)" package ="(default package)" value ="2"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOI" description ="Number of Interfaces">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOP" description ="Number of Packages">
+      <Value value="1"/>
+   </Metric>
+   <Metric id = "TLOC" description ="Total Lines of Code">
+      <Value value="173"/>
+   </Metric>
+   <Metric id = "MLOC" description ="Method Lines of Code">
+      <Values per = "method" total = "154" avg = "22" stddev = "51.032" max = "147">
+         <Value name="cal" source ="EffortEstimation.java" package ="(default package)" value ="147"/>
+         <Value name="main" source ="EffortEstimation.java" package ="(default package)" value ="2"/>
+         <Value name="calcEF" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="calcTotalAc" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="calcTotalTCF" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="calcTotalUC" source ="Calculation.java" package ="(default package)" value ="1"/>
+         <Value name="calcWReport" source ="Calculation.java" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   </Metrics>
